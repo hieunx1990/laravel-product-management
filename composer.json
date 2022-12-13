@@ -1,0 +1,19 @@
+{
+    "name": "hieu/product-management",
+    "description": "Product Management Module",
+    "require": {
+        "encore/laravel-admin": "^1.8",
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hieu\\ProductManagement\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tjtmjt",
+            "email": "hieunx1990@gmail.com"
+        }
+    ]
+}
