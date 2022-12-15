@@ -3,6 +3,7 @@
     "description": "Product Management Module",
     "require": {
         "encore/laravel-admin": "^1.8",
+        "laravel-admin-ext/ckeditor": "^1.0",
         "intervention/image": "^2.7"
     },
     "autoload": {
