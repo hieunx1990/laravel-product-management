@@ -65,12 +65,14 @@ class ProductController extends AdminController
     protected function form()
     {
         $form = new Form(new Product());
-        $form->text('name', __('Product Name'));
+        $form->text('name', __('Product Name'))->rules('required');
         $form->ckeditor('description', __('Product Description'));
-        $form->currency('price', __('Price'))->default(0.00)->symbol('$');
-        $form->number('quantity', __('Quantity'))->default(0);
+        $form->currency('price', __('Price'))->default(0.00)->symbol('$')
+            ->rules('required');
+        $form->number('quantity', __('Quantity'))->default(0)->rules('required');
         $form->multipleImage('galleryImages',__('Gallery Images'))
-            ->pathColumn('url')->removable();
+            ->pathColumn('url')->removable()
+            ->rules('file|max:2048');
 
         $form->footer(function($footer) {
             $footer->disableViewCheck();
