@@ -33,10 +33,11 @@ This module require encore/laravel-admin package for UI then you have to run com
 ```bash
 php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
 php artisan vendor:publish --tag=laravel-admin-ckeditor
+php artisan vendor:publish --tag=public --force
 ```
 Finally
 ```bash
-php artisan vendor:publish --tag=public --force
+php artisan admin:install
 ```
 
 ## Configuration
