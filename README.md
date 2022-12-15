@@ -4,7 +4,9 @@ Product Management Module
 This module allows to manage products such as create,edit product.
 
 ## Screenshot
+![Custom Menu](https://raw.githubusercontent.com/hieunx1990/laravel-product-management/master/public/screenshot/product_list.png)
 
+![Custom Menu](https://raw.githubusercontent.com/hieunx1990/laravel-product-management/master/public/screenshot/product_edit.png)
 
 
 ## Installation
@@ -55,4 +57,4 @@ This is the product listing page url:
 
 You can add this link to the left menu bar by add custom menu here:
 
-
+![Custom Menu](https://raw.githubusercontent.com/hieunx1990/laravel-product-management/master/public/screenshot/custommenu.png)
